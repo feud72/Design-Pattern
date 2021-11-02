@@ -1,8 +1,8 @@
 import 'Editor.dart';
-import 'history.dart';
+import 'History.dart';
 
 void main(List<String> args) {
-  var editor = Editor();
+  var editor = new Editor();
   var history = new History();
 
   editor.content = "a";
