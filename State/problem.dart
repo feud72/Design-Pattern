@@ -24,12 +24,10 @@ class Canvas {
   void mouseUp() {
     if (currentTool == ToolType.SELECTION) {
       print("점선 사각형을 그린다");
-    } else {
-      if (currentTool == ToolType.BRUSH) {
-        print("선을 그린다");
-      } else if (currentTool == ToolType.ERASER) {
-        print("지운다");
-      }
+    } else if (currentTool == ToolType.BRUSH) {
+      print("선을 그린다");
+    } else if (currentTool == ToolType.ERASER) {
+      print("지운다");
     }
   }
 }
