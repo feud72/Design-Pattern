@@ -1,4 +1,4 @@
-from BrowseHistory import BrowseHistory
+from browse_history import BrowseHistory
 
 
 def main():

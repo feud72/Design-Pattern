@@ -1,4 +1,4 @@
-from StringIterator import StringIterator
+from custom_iterator import CustomIterator
 
 
 class BrowseHistory:
@@ -7,8 +7,8 @@ class BrowseHistory:
     def getUrls(self) -> list:
         return self.__urls
 
-    def createIterator(self) -> StringIterator:
-        return StringIterator(self)
+    def createIterator(self) -> CustomIterator:
+        return CustomIterator(self)
 
     def push(self, url: str) -> None:
         self.__urls.append(url)

@@ -1,4 +1,4 @@
-from EditorState import EditorState
+from editor_state import EditorState
 
 
 class History:
