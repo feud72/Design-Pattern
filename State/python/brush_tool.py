@@ -1,4 +1,4 @@
-from UIControl import UIControl
+from ui_control import UIControl
 
 
 class BrushTool(UIControl):

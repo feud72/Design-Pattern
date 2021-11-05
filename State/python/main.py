@@ -1,6 +1,6 @@
-from SelectionTool import SelectionTool
-from BrushTool import BrushTool
-from Canvas import Canvas
+from selection_tool import SelectionTool
+from brush_tool import BrushTool
+from canvas import Canvas
 
 
 def main():

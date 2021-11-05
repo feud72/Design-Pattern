@@ -1,5 +1,5 @@
-from Editor import Editor
-from History import History
+from editor import Editor
+from history import History
 
 editor = Editor()
 history = History()

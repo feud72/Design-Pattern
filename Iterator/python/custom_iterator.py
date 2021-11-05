@@ -1,7 +1,7 @@
-from CustomIterator import Iterator
+from iterator import Iterator
 
 
-class StringIterator(Iterator):
+class CustomIterator(Iterator):
     def __init__(self, history) -> None:
         self.__history = history
         self.__index = 0
